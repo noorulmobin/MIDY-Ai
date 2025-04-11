@@ -1,0 +1,44 @@
+{
+  "error": {
+    "code_invalid": "分享码错误, 更多请访问 <site>302.AI</site>",
+    "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+    "not_found": "页面不存在",
+    "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+    "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+    "unknown_error": "发生未知错误, 请联系客服"
+  },
+  "footer": {
+    "copyright_content": "由<LinkLogo></LinkLogo>驱动",
+    "copyright_leading": "内容由AI生成，仅供参考"
+  },
+  "header": {
+    "github_hyperlink": {
+      "label": "GitHub仓库链接"
+    },
+    "language_switcher": {
+      "switch_language": "切换语言"
+    },
+    "theme_switcher": {
+      "dark": "夜间",
+      "light": "白天",
+      "system": "跟随系统",
+      "toggle_theme": "切换主题"
+    },
+    "tool_info": {
+      "description": "当前工具相关信息",
+      "title": "关于",
+      "trigger": {
+        "label": "打开/关闭工具信息弹窗"
+      }
+    }
+  },
+  "translation": {
+    "global": {
+      "header": {
+        "github_hyperlink": {
+          "label": "GitHub仓库链接"
+        }
+      }
+    }
+  }
+}

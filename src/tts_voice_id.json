@@ -1,0 +1,1877 @@
+{
+  "openai": [
+    {
+      "name": "alloy",
+      "displayName": "alloy",
+      "gender": "Male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_openai_alloy_en.wav",
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_openai_alloy_ja.wav",
+        "ko": "https://file.302.ai/gpt/imgs/tts_demo_openai_alloy_ko.wav",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_openai_alloy_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_openai_alloy_fr.wav",
+        "zh": "https://file.302.ai/gpt/imgs/tts_demo_openai_alloy_zh.wav"
+      }
+    },
+    {
+      "name": "echo",
+      "displayName": "echo",
+      "gender": "Male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302.ai/gpt/imgs/tts_demo_openai_echo_en.wav",
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_openai_echo_ja.wav",
+        "ko": "https://file.302.ai/gpt/imgs/tts_demo_openai_echo_ko.wav",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_openai_echo_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_openai_echo_fr.wav",
+        "zh": "https://file.302.ai/gpt/imgs/tts_demo_openai_echo_zh.wav"
+      }
+    },
+    {
+      "name": "fable",
+      "displayName": "fable",
+      "gender": "Male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302.ai/gpt/imgs/tts_demo_openai_fable_en.wav",
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_openai_fable_ja.wav",
+        "ko": "https://file.302.ai/gpt/imgs/tts_demo_openai_fable_ko.wav",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_openai_fable_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_openai_fable_fr.wav",
+        "zh": "https://file.302.ai/gpt/imgs/tts_demo_openai_fable_zh.wav"
+      }
+    },
+    {
+      "name": "onyx",
+      "displayName": "onyx",
+      "gender": "Male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302.ai/gpt/imgs/tts_demo_openai_onyx_en.wav",
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_openai_onyx_ja.wav",
+        "ko": "https://file.302.ai/gpt/imgs/tts_demo_openai_onyx_ko.wav",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_openai_onyx_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_openai_onyx_fr.wav",
+        "zh": "https://file.302.ai/gpt/imgs/tts_demo_openai_onyx_zh.wav"
+      }
+    },
+    {
+      "name": "nova",
+      "displayName": "nova",
+      "gender": "Female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302.ai/gpt/imgs/tts_demo_openai_nova_en.wav",
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_openai_nova_ja.wav",
+        "ko": "https://file.302.ai/gpt/imgs/tts_demo_openai_nova_ko.wav",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_openai_nova_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_openai_nova_fr.wav",
+        "zh": "https://file.302.ai/gpt/imgs/tts_demo_openai_nova_zh.wav"
+      }
+    },
+    {
+      "name": "shimmer",
+      "displayName": "shimmer",
+      "gender": "Female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302.ai/gpt/imgs/tts_demo_openai_shimmer_en.wav",
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_openai_shimmer_ja.wav",
+        "ko": "https://file.302.ai/gpt/imgs/tts_demo_openai_shimmer_ko.wav",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_openai_shimmer_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_openai_shimmer_fr.wav",
+        "zh": "https://file.302.ai/gpt/imgs/tts_demo_openai_shimmer_zh.wav"
+      }
+    }
+  ],
+  "azure": [
+    {
+      "name": "de-DE-FlorianMultilingualNeural",
+      "displayName": "Florian Mehrsprachig",
+      "gender": "Male",
+      "locale": "de-DE",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-FlorianMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-FlorianMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-FlorianMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-FlorianMultilingualNeural_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_azure_de-DE-FlorianMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-FlorianMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "de-DE-SeraphinaMultilingualNeural",
+      "displayName": "Seraphina Mehrsprachig",
+      "gender": "Female",
+      "locale": "de-DE",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-SeraphinaMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-SeraphinaMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-SeraphinaMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-SeraphinaMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-SeraphinaMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_de-DE-SeraphinaMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "en-US-AvaMultilingualNeural",
+      "displayName": "Ava Multilingual",
+      "gender": "Female",
+      "locale": "en-US",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AvaMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AvaMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AvaMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AvaMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AvaMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AvaMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "en-US-AndrewMultilingualNeural",
+      "displayName": "Andrew Multilingual",
+      "gender": "Male",
+      "locale": "en-US",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AndrewMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AndrewMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AndrewMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AndrewMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AndrewMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-AndrewMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "en-US-EmmaMultilingualNeural",
+      "displayName": "Emma Multilingual",
+      "gender": "Female",
+      "locale": "en-US",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-EmmaMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-EmmaMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-EmmaMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-EmmaMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-EmmaMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-EmmaMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "en-US-BrianMultilingualNeural",
+      "displayName": "Brian Multilingual",
+      "gender": "Male",
+      "locale": "en-US",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-BrianMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-BrianMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-BrianMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-BrianMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-BrianMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-BrianMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "en-US-JennyMultilingualNeural",
+      "displayName": "Jenny Multilingual",
+      "gender": "Female",
+      "locale": "en-US",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-JennyMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-JennyMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-JennyMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-JennyMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-JennyMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-JennyMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "en-US-RyanMultilingualNeural",
+      "displayName": "Ryan Multilingual",
+      "gender": "Male",
+      "locale": "en-US",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-RyanMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-RyanMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-RyanMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-RyanMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-RyanMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-RyanMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "en-US-SteffanMultilingualNeural",
+      "displayName": "Steffan Multilingual",
+      "gender": "Male",
+      "locale": "en-US",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-SteffanMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-SteffanMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-SteffanMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-SteffanMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-SteffanMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_en-US-SteffanMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "fr-FR-RemyMultilingualNeural",
+      "displayName": "Rémy Multilingue",
+      "gender": "Male",
+      "locale": "fr-FR",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-RemyMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-RemyMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-RemyMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-RemyMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-RemyMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-RemyMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "fr-FR-VivienneMultilingualNeural",
+      "displayName": "Vivienne Multilingue",
+      "gender": "Female",
+      "locale": "fr-FR",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-VivienneMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-VivienneMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-VivienneMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-VivienneMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-VivienneMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_fr-FR-VivienneMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "zh-CN-XiaochenMultilingualNeural",
+      "displayName": "晓辰 多语言",
+      "gender": "Female",
+      "locale": "zh-CN",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaochenMultilingualNeural_en.wav",
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_azure_zh-CN-XiaochenMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaochenMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaochenMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaochenMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaochenMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "zh-CN-XiaoxiaoMultilingualNeural",
+      "displayName": "晓晓 多语言",
+      "gender": "Female",
+      "locale": "zh-CN",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoxiaoMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoxiaoMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoxiaoMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoxiaoMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoxiaoMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoxiaoMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "zh-CN-XiaoyuMultilingualNeural",
+      "displayName": "晓宇 多语言",
+      "gender": "Female",
+      "locale": "zh-CN",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoyuMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoyuMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoyuMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoyuMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoyuMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-XiaoyuMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "zh-CN-YunyiMultilingualNeural",
+      "displayName": "云逸 多语言",
+      "gender": "Male",
+      "locale": "zh-CN",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunyiMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunyiMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunyiMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunyiMultilingualNeural_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_azure_zh-CN-YunyiMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunyiMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "zh-CN-YunfanMultilingualNeural",
+      "displayName": "Yunfan Multilingual",
+      "gender": "Male",
+      "locale": "zh-CN",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunfanMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunfanMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunfanMultilingualNeural_ko.wav",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunfanMultilingualNeural_de.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunfanMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunfanMultilingualNeural_zh.wav"
+      }
+    },
+    {
+      "name": "zh-CN-YunxiaoMultilingualNeural",
+      "displayName": "Yunxiao Multilingual",
+      "gender": "Male",
+      "locale": "zh-CN",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunxiaoMultilingualNeural_en.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunxiaoMultilingualNeural_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunxiaoMultilingualNeural_ko.wav",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_azure_zh-CN-YunxiaoMultilingualNeural_de.wav",
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_azure_zh-CN-YunxiaoMultilingualNeural_fr.wav",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_azure_zh-CN-YunxiaoMultilingualNeural_zh.wav"
+      }
+    }
+  ],
+  "fish": [
+    {
+      "displayName": "POTUS 45 - Trump",
+      "langs": ["en"],
+      "name": "e58b0d7efca34eb38d5c4985e378abcb",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_e58b0d7efca34eb38d5c4985e378abcb_en.wav"
+      }
+    },
+    {
+      "displayName": "Oprah",
+      "langs": ["en"],
+      "name": "33b1ee10853b423094c0185a27f8eacb",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_33b1ee10853b423094c0185a27f8eacb_en.wav"
+      }
+    },
+    {
+      "displayName": "lady gaga",
+      "langs": ["en"],
+      "name": "42f3b5f5753047a99598705024c4dd3e",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_42f3b5f5753047a99598705024c4dd3e_en.wav"
+      }
+    },
+    {
+      "displayName": "马斯克",
+      "langs": ["en"],
+      "name": "57fd0b0e9f224d5bb88a7ebf21cce476",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_57fd0b0e9f224d5bb88a7ebf21cce476_en.wav"
+      }
+    },
+    {
+      "displayName": "小朋友",
+      "langs": ["en"],
+      "name": "5788f473bfbe4e3aa1274edda190098c",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_5788f473bfbe4e3aa1274edda190098c_en.wav"
+      }
+    },
+    {
+      "displayName": "....",
+      "langs": ["en"],
+      "name": "2f551686c31d41b1bf29af24f638a4b6",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_2f551686c31d41b1bf29af24f638a4b6_en.wav"
+      }
+    },
+    {
+      "displayName": "Ishowspeed",
+      "langs": ["en"],
+      "name": "b36c8da909f948a595ca88e0f9f2d160",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_b36c8da909f948a595ca88e0f9f2d160_en.wav"
+      }
+    },
+    {
+      "displayName": "刘",
+      "langs": ["en"],
+      "name": "e9ad11705bea4ea2983e76757ca5be90",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_e9ad11705bea4ea2983e76757ca5be90_en.wav"
+      }
+    },
+    {
+      "displayName": "李峻鹏2.0",
+      "langs": ["en"],
+      "name": "b0fcb2e62ca44112a4f5f343b60f496f",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_b0fcb2e62ca44112a4f5f343b60f496f_en.wav"
+      }
+    },
+    {
+      "displayName": "indian",
+      "langs": ["en"],
+      "name": "ce9c96291460478ea6851049cb847d73",
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_ce9c96291460478ea6851049cb847d73_en.wav"
+      }
+    },
+    {
+      "displayName": "芙宁娜（日配）",
+      "langs": ["ja"],
+      "name": "d5c45b4bbbde421ba27fb3d093ecbc98",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_d5c45b4bbbde421ba27fb3d093ecbc98_ja.wav"
+      }
+    },
+    {
+      "displayName": "Sukuna ",
+      "langs": ["ja"],
+      "name": "06c78a96ef654e0e8000d82a332f8e01",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_06c78a96ef654e0e8000d82a332f8e01_ja.wav"
+      }
+    },
+    {
+      "displayName": "宇智波鼬",
+      "langs": ["ja"],
+      "name": "624c2bb657034d258eba8be6e61687dd",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_624c2bb657034d258eba8be6e61687dd_ja.wav"
+      }
+    },
+    {
+      "displayName": "爱丽丝",
+      "langs": ["ja"],
+      "name": "786dd3c398a0485aa18af1fc6743788d",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_786dd3c398a0485aa18af1fc6743788d_ja.wav"
+      }
+    },
+    {
+      "displayName": "三上悠亞",
+      "langs": ["ja"],
+      "name": "b56493749f9c49c18cbe52f41f813161",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_b56493749f9c49c18cbe52f41f813161_ja.wav"
+      }
+    },
+    {
+      "displayName": "小八",
+      "langs": ["ja"],
+      "name": "fa418120015847049548742f12ee1697",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_fa418120015847049548742f12ee1697_ja.wav"
+      }
+    },
+    {
+      "displayName": "小八3.0",
+      "langs": ["ja"],
+      "name": "f5c9580ee0ca4f3081f2d2b0fd0d7833",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_f5c9580ee0ca4f3081f2d2b0fd0d7833_ja.wav"
+      }
+    },
+    {
+      "displayName": "小八2.0",
+      "langs": ["ja"],
+      "name": "6b549f0154b84d7194ccd0e60626adbb",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_6b549f0154b84d7194ccd0e60626adbb_ja.wav"
+      }
+    },
+    {
+      "displayName": "赤苇京治",
+      "langs": ["ja"],
+      "name": "15b559207b5e4b3c866dbb0426fd9cb2",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_15b559207b5e4b3c866dbb0426fd9cb2_ja.wav"
+      }
+    },
+    {
+      "displayName": "白子",
+      "langs": ["ja"],
+      "name": "f8314195a435407d8ca965a607ee8784",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_f8314195a435407d8ca965a607ee8784_ja.wav"
+      }
+    },
+    {
+      "displayName": "LG_test",
+      "langs": ["ko"],
+      "name": "0a921d035d0d4c5bae8b40c09b967291",
+      "sample": {
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_0a921d035d0d4c5bae8b40c09b967291_ko.wav"
+      }
+    },
+    {
+      "displayName": "李楷灿 3",
+      "langs": ["ko"],
+      "name": "2b8ddf49bb2c4945bab21f2a0b6e77c0",
+      "sample": {
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_2b8ddf49bb2c4945bab21f2a0b6e77c0_ko.wav"
+      }
+    },
+    {
+      "displayName": "女声",
+      "langs": ["zh", "ko"],
+      "name": "3e570b6e63e24a41839fb23bc37ae2d1",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_3e570b6e63e24a41839fb23bc37ae2d1_zh.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_3e570b6e63e24a41839fb23bc37ae2d1_ko.wav"
+      }
+    },
+    {
+      "displayName": "志村新八",
+      "langs": ["ko"],
+      "name": "ff1ca2cc29544aa8879e4855be7110cc",
+      "sample": {
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_ff1ca2cc29544aa8879e4855be7110cc_ko.wav"
+      }
+    },
+    {
+      "displayName": "山鸡",
+      "langs": ["zh", "ja", "vi", "ko", "th", "id"],
+      "name": "bd51a1f68e6b4a708306461774a591b1",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_bd51a1f68e6b4a708306461774a591b1_zh.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_bd51a1f68e6b4a708306461774a591b1_ja.wav",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_bd51a1f68e6b4a708306461774a591b1_ko.wav"
+      }
+    },
+    {
+      "displayName": "iu",
+      "langs": ["ko"],
+      "name": "0ec4802851344e7e9f5a8ba67942c535",
+      "sample": {
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_0ec4802851344e7e9f5a8ba67942c535_ko.wav"
+      }
+    },
+    {
+      "displayName": "Minji",
+      "langs": ["ko"],
+      "name": "061ca57566964f68bc06dde05da9a202",
+      "sample": {
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_061ca57566964f68bc06dde05da9a202_ko.wav"
+      }
+    },
+    {
+      "displayName": "Niki",
+      "langs": ["ko"],
+      "name": "38de4fb8426b403d8c8328b4ca09cd02",
+      "sample": {
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_38de4fb8426b403d8c8328b4ca09cd02_ko.wav"
+      }
+    },
+    {
+      "displayName": "大哥",
+      "langs": ["ko"],
+      "name": "de13fcbaf4be4fb29a3a3a4c35f3ec15",
+      "sample": {
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_de13fcbaf4be4fb29a3a3a4c35f3ec15_ko.wav"
+      }
+    },
+    {
+      "displayName": "熊",
+      "langs": ["ko"],
+      "name": "bc8fe11854354941bc5c1d47e2c01eac",
+      "sample": {
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_bc8fe11854354941bc5c1d47e2c01eac_ko.wav"
+      }
+    },
+    {
+      "displayName": "Halmich",
+      "langs": ["de"],
+      "name": "bae85ba9dc43406fbf0b7544132a8bcc",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_bae85ba9dc43406fbf0b7544132a8bcc_de.wav"
+      }
+    },
+    {
+      "displayName": "Lilabaer",
+      "langs": ["de"],
+      "name": "e3c509f088f341feb533b245d108eff3",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_e3c509f088f341feb533b245d108eff3_de.wav"
+      }
+    },
+    {
+      "displayName": "Regina halmich ",
+      "langs": ["de"],
+      "name": "5496503dd66142e7b1a7e7b2b6cea079",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_5496503dd66142e7b1a7e7b2b6cea079_de.wav"
+      }
+    },
+    {
+      "displayName": "reesy",
+      "langs": ["pl", "de", "ja", "en"],
+      "name": "5df987a9fa854db89ae6c8a19301d050",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_5df987a9fa854db89ae6c8a19301d050_de.wav",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_5df987a9fa854db89ae6c8a19301d050_ja.wav",
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_5df987a9fa854db89ae6c8a19301d050_en.wav"
+      }
+    },
+    {
+      "displayName": "hamon",
+      "langs": ["de", "en"],
+      "name": "c935ed541fc44b48a8073f0523a9d806",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_c935ed541fc44b48a8073f0523a9d806_de.wav",
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_c935ed541fc44b48a8073f0523a9d806_en.wav"
+      }
+    },
+    {
+      "displayName": "希特勒音频",
+      "langs": ["de"],
+      "name": "966cc21eba234bd8803faeea40215b5a",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_966cc21eba234bd8803faeea40215b5a_de.wav"
+      }
+    },
+    {
+      "displayName": "My Voice German",
+      "langs": ["de"],
+      "name": "e833746e27904d5594857d4a86cd9541",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_e833746e27904d5594857d4a86cd9541_de.wav"
+      }
+    },
+    {
+      "displayName": "Christa 4",
+      "langs": ["de"],
+      "name": "dee079deb77d4e31a9e02d5a18cb811a",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_dee079deb77d4e31a9e02d5a18cb811a_de.wav"
+      }
+    },
+    {
+      "displayName": "GB普鲁士语音",
+      "langs": ["de"],
+      "name": "d73400005a9745d9b42ab93f4e0dd7f6",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_d73400005a9745d9b42ab93f4e0dd7f6_de.wav"
+      }
+    },
+    {
+      "displayName": "Ahmad",
+      "langs": ["de"],
+      "name": "2a060a393f4f433d872e24a761fa4f5d",
+      "sample": {
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_2a060a393f4f433d872e24a761fa4f5d_de.wav"
+      }
+    },
+    {
+      "displayName": "皎月",
+      "langs": ["zh", "fr"],
+      "name": "85f8e2a6ad604610a1b9ca235bfee3bb",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_85f8e2a6ad604610a1b9ca235bfee3bb_zh.wav",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_85f8e2a6ad604610a1b9ca235bfee3bb_fr.wav"
+      }
+    },
+    {
+      "displayName": "Congo",
+      "langs": ["fr"],
+      "name": "dd613fc700d64e9a8af5a8bbca321aa9",
+      "sample": {
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_dd613fc700d64e9a8af5a8bbca321aa9_fr.wav"
+      }
+    },
+    {
+      "displayName": "戴高乐",
+      "langs": ["fr"],
+      "name": "aeb00cdbbc2e48e9a71c9a18cf2c275f",
+      "sample": {
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_aeb00cdbbc2e48e9a71c9a18cf2c275f_fr.wav"
+      }
+    },
+    {
+      "displayName": "FRANCAISE",
+      "langs": ["fr"],
+      "name": "3c7dbb7fb0a243598ca0602cfaf1076a",
+      "sample": {
+        "fr": "https://file.302.ai/gpt/imgs/tts_demo_fish_3c7dbb7fb0a243598ca0602cfaf1076a_fr.wav"
+      }
+    },
+    {
+      "displayName": "AFRICAINE",
+      "langs": ["fr"],
+      "name": "4c64f1c6a50f461bb3c27677e44fb576",
+      "sample": {
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_4c64f1c6a50f461bb3c27677e44fb576_fr.wav"
+      }
+    },
+    {
+      "displayName": "NKJNH",
+      "langs": ["fr"],
+      "name": "be8650513faa4751aeed9403e3f3b05b",
+      "sample": {
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_be8650513faa4751aeed9403e3f3b05b_fr.wav"
+      }
+    },
+    {
+      "displayName": "LM",
+      "langs": ["fr"],
+      "name": "6ec8bd15f5474c49800f4275286de764",
+      "sample": {
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_6ec8bd15f5474c49800f4275286de764_fr.wav"
+      }
+    },
+    {
+      "displayName": "Zakaria ",
+      "langs": ["fr"],
+      "name": "abc22b5d1bb74cbdb809e2ff745e0348",
+      "sample": {
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_abc22b5d1bb74cbdb809e2ff745e0348_fr.wav"
+      }
+    },
+    {
+      "displayName": "moi",
+      "langs": ["fr"],
+      "name": "7c78f5a0f9d145b7941eb83bfb36c5a4",
+      "sample": {
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_7c78f5a0f9d145b7941eb83bfb36c5a4_fr.wav"
+      }
+    },
+    {
+      "displayName": "CLIENT",
+      "langs": ["fr"],
+      "name": "18a4fadf611446978b1698f193b95b59",
+      "sample": {
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_18a4fadf611446978b1698f193b95b59_fr.wav"
+      }
+    },
+    {
+      "displayName": "雷军",
+      "langs": ["zh"],
+      "name": "738d0cc1a3e9430a9de2b544a466a7fc",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_738d0cc1a3e9430a9de2b544a466a7fc_zh.wav"
+      }
+    },
+    {
+      "displayName": "丁真",
+      "langs": ["zh"],
+      "name": "54a5170264694bfc8e9ad98df7bd89c3",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_54a5170264694bfc8e9ad98df7bd89c3_zh.wav"
+      }
+    },
+    {
+      "displayName": "AD学姐",
+      "langs": ["zh"],
+      "name": "7f92f8afb8ec43bf81429cc1c9199cb1",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_7f92f8afb8ec43bf81429cc1c9199cb1_zh.wav"
+      }
+    },
+    {
+      "displayName": "赛马娘",
+      "langs": ["zh"],
+      "name": "0eb38bc974e1459facca38b359e13511",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_0eb38bc974e1459facca38b359e13511_zh.wav"
+      }
+    },
+    {
+      "displayName": "孙笑川258",
+      "langs": ["zh"],
+      "name": "e80ea225770f42f79d50aa98be3cedfc",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_e80ea225770f42f79d50aa98be3cedfc_zh.wav"
+      }
+    },
+    {
+      "displayName": "蔡徐坤",
+      "langs": ["zh"],
+      "name": "e4642e5edccd4d9ab61a69e82d4f8a14",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_e4642e5edccd4d9ab61a69e82d4f8a14_zh.wav"
+      }
+    },
+    {
+      "displayName": "黑手",
+      "langs": ["zh"],
+      "name": "f7561ff309bd4040a59f1e600f4f4338",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_f7561ff309bd4040a59f1e600f4f4338_zh.wav"
+      }
+    },
+    {
+      "displayName": "丁真（锐刻五代版）",
+      "langs": ["zh"],
+      "name": "332941d1360c48949f1b4e0cabf912cd",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_332941d1360c48949f1b4e0cabf912cd_zh.wav"
+      }
+    },
+    {
+      "displayName": "央视配音",
+      "langs": ["zh"],
+      "name": "59cb5986671546eaa6ca8ae6f29f6d22",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_59cb5986671546eaa6ca8ae6f29f6d22_zh.wav"
+      }
+    },
+    {
+      "displayName": "芙宁娜",
+      "langs": ["zh"],
+      "name": "1aacaeb1b840436391b835fd5513f4c4",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_1aacaeb1b840436391b835fd5513f4c4_zh.wav"
+      }
+    },
+    {
+      "displayName": "邓紫琪",
+      "langs": ["zh"],
+      "name": "3b55b3d84d2f453a98d8ca9bb24182d6",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_3b55b3d84d2f453a98d8ca9bb24182d6_zh.wav"
+      }
+    },
+    {
+      "displayName": "东雪莲",
+      "langs": ["zh"],
+      "name": "7af4d620be1c4c6686132f21940d51c5",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_7af4d620be1c4c6686132f21940d51c5_zh.wav"
+      }
+    },
+    {
+      "displayName": "永雏塔菲",
+      "langs": ["zh"],
+      "name": "e1cfccf59a1c4492b5f51c7c62a8abd2",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_e1cfccf59a1c4492b5f51c7c62a8abd2_zh.wav"
+      }
+    },
+    {
+      "displayName": "月半猫",
+      "langs": ["zh"],
+      "name": "665e031efe27435780ebfa56cc7e0e0d",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_665e031efe27435780ebfa56cc7e0e0d_zh.wav"
+      }
+    },
+    {
+      "displayName": "郭德纲",
+      "langs": ["zh"],
+      "name": "7c66db6e457c4d53b1fe428a8c547953",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_7c66db6e457c4d53b1fe428a8c547953_zh.wav"
+      }
+    },
+    {
+      "displayName": "我叫夯大力",
+      "langs": ["zh"],
+      "name": "86991c5f6a264a379d311ac58c4f9aaf",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_86991c5f6a264a379d311ac58c4f9aaf_zh.wav"
+      }
+    },
+    {
+      "displayName": "雷军",
+      "langs": ["zh"],
+      "name": "aebaa2305aa2452fbdc8f41eec852a79",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_aebaa2305aa2452fbdc8f41eec852a79_zh.wav"
+      }
+    },
+    {
+      "displayName": "雷军",
+      "langs": ["zh"],
+      "name": "4462fa28f3824bff808a94a6075570e5",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_4462fa28f3824bff808a94a6075570e5_zh.wav"
+      }
+    },
+    {
+      "displayName": "贝利亚",
+      "langs": ["zh"],
+      "name": "99503144194c45ed8fb998ceac181dcc",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_99503144194c45ed8fb998ceac181dcc_zh.wav"
+      }
+    },
+    {
+      "displayName": "周杰伦",
+      "langs": ["zh"],
+      "name": "188c9b7c06654042be0e8a25781761e8",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_188c9b7c06654042be0e8a25781761e8_zh.wav"
+      }
+    },
+    {
+      "displayName": "御女茉莉",
+      "langs": ["zh"],
+      "name": "6ce7ea8ada884bf3889fa7c7fb206691",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_6ce7ea8ada884bf3889fa7c7fb206691_zh.wav"
+      }
+    },
+    {
+      "displayName": "奶龙(效果最好的一个)",
+      "langs": ["zh"],
+      "name": "3d1cb00d75184099992ddbaf0fdd7387",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_3d1cb00d75184099992ddbaf0fdd7387_zh.wav"
+      }
+    },
+    {
+      "displayName": "大力二代",
+      "langs": ["zh"],
+      "name": "06b05c47688f4dcf88ce6b77185e3cf7",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_06b05c47688f4dcf88ce6b77185e3cf7_zh.wav"
+      }
+    },
+    {
+      "displayName": "悟空-电视剧",
+      "langs": ["zh"],
+      "name": "8d96d5525334476aa67677fb43059dc5",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_8d96d5525334476aa67677fb43059dc5_zh.wav"
+      }
+    },
+    {
+      "displayName": "贝塔",
+      "langs": ["zh"],
+      "name": "f4d40983c36347df91b6585dcba94689",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_f4d40983c36347df91b6585dcba94689_zh.wav"
+      }
+    },
+    {
+      "displayName": "央视播音腔1",
+      "langs": ["zh"],
+      "name": "188fedbaa43e40508a8fefdaddac66c6",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_188fedbaa43e40508a8fefdaddac66c6_zh.wav"
+      }
+    },
+    {
+      "displayName": "雷军",
+      "langs": ["zh"],
+      "name": "c05b3d677c7847e4a9b4d27f5d049930",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_c05b3d677c7847e4a9b4d27f5d049930_zh.wav"
+      }
+    },
+    {
+      "displayName": "蒋介石",
+      "langs": ["zh"],
+      "name": "918a8277663d476b95e2c4867da0f6a6",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_918a8277663d476b95e2c4867da0f6a6_zh.wav"
+      }
+    },
+    {
+      "displayName": "夯大力",
+      "langs": ["zh"],
+      "name": "f815733dce294ce5b44d2ba477518128",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_f815733dce294ce5b44d2ba477518128_zh.wav"
+      }
+    },
+    {
+      "displayName": "夯大力",
+      "langs": ["zh"],
+      "name": "3a0f0051a8164e53a82cf8048f867572",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_3a0f0051a8164e53a82cf8048f867572_zh.wav"
+      }
+    },
+    {
+      "displayName": "公孙离",
+      "langs": ["zh"],
+      "name": "4969fec113ff4a90a7a04166d6a0f1d2",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_4969fec113ff4a90a7a04166d6a0f1d2_zh.wav"
+      }
+    },
+    {
+      "displayName": "俄罗斯起量女（正常声）",
+      "langs": ["zh"],
+      "name": "c7dc03f053804cb5a713d7b1aa07c84a",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_c7dc03f053804cb5a713d7b1aa07c84a_zh.wav"
+      }
+    },
+    {
+      "displayName": "少羽",
+      "langs": ["zh"],
+      "name": "1218287072ff42e6b2e1373958742529",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_1218287072ff42e6b2e1373958742529_zh.wav"
+      }
+    },
+    {
+      "displayName": "王琨声音模型10.16t1",
+      "langs": ["zh"],
+      "name": "5af102e656be4fcf9fe8a1af16950395",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_5af102e656be4fcf9fe8a1af16950395_zh.wav"
+      }
+    },
+    {
+      "displayName": "樊登",
+      "langs": ["zh"],
+      "name": "a3c8d9efa84b4445bf4fc373c8fa0a5d",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_a3c8d9efa84b4445bf4fc373c8fa0a5d_zh.wav"
+      }
+    },
+    {
+      "displayName": "镇关西",
+      "langs": ["zh"],
+      "name": "0ccbbf3d74464bfba106eb501bdbc9f9",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_0ccbbf3d74464bfba106eb501bdbc9f9_zh.wav"
+      }
+    },
+    {
+      "displayName": "男讲师",
+      "langs": ["zh"],
+      "name": "febf06e6e8a144239bc2712ee9957fc7",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_febf06e6e8a144239bc2712ee9957fc7_zh.wav"
+      }
+    },
+    {
+      "displayName": "甜甜",
+      "langs": ["zh"],
+      "name": "ea55ab7eb36d4e258f80144ab6cfc2e0",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_ea55ab7eb36d4e258f80144ab6cfc2e0_zh.wav"
+      }
+    },
+    {
+      "displayName": "曹操",
+      "langs": ["zh"],
+      "name": "5540d013b4634127bcff8337fce120b0",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_5540d013b4634127bcff8337fce120b0_zh.wav"
+      }
+    },
+    {
+      "displayName": "周文强",
+      "langs": ["zh"],
+      "name": "ab440f96a38a4e358f9552e01e46235b",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_ab440f96a38a4e358f9552e01e46235b_zh.wav"
+      }
+    },
+    {
+      "displayName": "女 16号 db",
+      "langs": ["zh"],
+      "name": "8c24b0d3b5034089ba4f30df731776b0",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_8c24b0d3b5034089ba4f30df731776b0_zh.wav"
+      }
+    },
+    {
+      "displayName": "向太女助理",
+      "langs": ["zh"],
+      "name": "3122a3b1fc20474f8c3721c92784f8a4",
+      "sample": {
+        "zh": ""
+      }
+    },
+    {
+      "displayName": "汪汪队",
+      "langs": ["zh"],
+      "name": "848cce2779c5493795338e54b389258f",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_848cce2779c5493795338e54b389258f_zh.wav"
+      }
+    },
+    {
+      "displayName": "超",
+      "langs": ["zh"],
+      "name": "ab80b473bcd84c869ca347b19123fa71",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_ab80b473bcd84c869ca347b19123fa71_zh.wav"
+      }
+    },
+    {
+      "displayName": "测试克隆声音",
+      "langs": ["zh"],
+      "name": "a5dedbc31aaf4ca597f8db25df1fa279",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_a5dedbc31aaf4ca597f8db25df1fa279_zh.wav"
+      }
+    },
+    {
+      "displayName": "叶澜依",
+      "langs": ["zh"],
+      "name": "7afe638184094182a5a6d1154cc53721",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_7afe638184094182a5a6d1154cc53721_zh.wav"
+      }
+    },
+    {
+      "displayName": "女汉子",
+      "langs": ["zh"],
+      "name": "b912a70d50bc45a097375d75d09dcd9e",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_b912a70d50bc45a097375d75d09dcd9e_zh.wav"
+      }
+    },
+    {
+      "displayName": "王晶海",
+      "langs": ["zh"],
+      "name": "9a522eb487a14f9394c9bc3c8eedf5f6",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_9a522eb487a14f9394c9bc3c8eedf5f6_zh.wav"
+      }
+    },
+    {
+      "displayName": "茶农2",
+      "langs": ["zh"],
+      "name": "fc5db0d5af0245fa91173403c7d1d993",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_fc5db0d5af0245fa91173403c7d1d993_zh.wav"
+      }
+    },
+    {
+      "displayName": "年羹尧",
+      "langs": ["zh"],
+      "name": "8a8e0e7025f945298eddd80b6885cca9",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_fish_8a8e0e7025f945298eddd80b6885cca9_zh.wav"
+      }
+    }
+  ],
+  "doubao": [
+    {
+      "name": "zh_female_shuangkuaisisi_moon_bigtts",
+      "displayName": "爽快思思/Skye",
+      "langs": ["zh", "en"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_shuangkuaisisi_moon_bigtts_zh.wav",
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_shuangkuaisisi_moon_bigtts_en.wav"
+      }
+    },
+    {
+      "name": "zh_male_wennuanahu_moon_bigtts",
+      "displayName": "温暖阿虎/Alvin",
+      "langs": ["zh", "en"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_wennuanahu_moon_bigtts_zh.wav",
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_wennuanahu_moon_bigtts_en.wav"
+      }
+    },
+    {
+      "name": "zh_male_shaonianzixin_moon_bigtts",
+      "displayName": "少年梓辛/Brayan",
+      "langs": ["zh", "en"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_shaonianzixin_moon_bigtts_zh.wav",
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_shaonianzixin_moon_bigtts_en.wav"
+      }
+    },
+    {
+      "name": "multi_male_jingqiangkanye_moon_bigtts",
+      "displayName": "かずね（和音）/Javier or Álvaro",
+      "langs": ["ja", "es"],
+      "gender": "male",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_multi_male_jingqiangkanye_moon_bigtts_ja.wav"
+      }
+    },
+    {
+      "name": "multi_female_shuangkuaisisi_moon_bigtts",
+      "displayName": "はるこ（晴子）/Esmeralda",
+      "langs": ["ja", "es"],
+      "gender": "female",
+      "sample": {
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_doubao_multi_female_shuangkuaisisi_moon_bigtts_ja.wav"
+      }
+    },
+    {
+      "name": "multi_female_gaolengyujie_moon_bigtts",
+      "displayName": "あけみ（朱美）",
+      "langs": ["ja"],
+      "gender": "female",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_multi_female_gaolengyujie_moon_bigtts_ja.wav"
+      }
+    },
+    {
+      "name": "multi_male_wanqudashu_moon_bigtts",
+      "displayName": "ひろし（広志）/Roberto",
+      "langs": ["ja", "es"],
+      "gender": "male",
+      "sample": {
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_multi_male_wanqudashu_moon_bigtts_ja.wav"
+      }
+    },
+    {
+      "name": "zh_female_linjianvhai_moon_bigtts",
+      "displayName": "邻家女孩",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_linjianvhai_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_yuanboxiaoshu_moon_bigtts",
+      "displayName": "渊博小叔",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_yuanboxiaoshu_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_yangguangqingnian_moon_bigtts",
+      "displayName": "阳光青年",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_yangguangqingnian_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_tianmeixiaoyuan_moon_bigtts",
+      "displayName": "甜美小源",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_tianmeixiaoyuan_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_qingchezizi_moon_bigtts",
+      "displayName": "清澈梓梓",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_qingchezizi_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_jieshuoxiaoming_moon_bigtts",
+      "displayName": "解说小明",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_jieshuoxiaoming_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_kailangjiejie_moon_bigtts",
+      "displayName": "开朗姐姐",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_kailangjiejie_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_linjiananhai_moon_bigtts",
+      "displayName": "邻家男孩",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_linjiananhai_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_tianmeiyueyue_moon_bigtts",
+      "displayName": "甜美悦悦",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_tianmeiyueyue_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_xinlingjitang_moon_bigtts",
+      "displayName": "心灵鸡汤",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_xinlingjitang_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_jingqiangkanye_moon_bigtts",
+      "displayName": "京腔侃爷/Harmony",
+      "langs": ["zh", "en"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_jingqiangkanye_moon_bigtts_zh.wav",
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_jingqiangkanye_moon_bigtts_en.wav"
+      }
+    },
+    {
+      "name": "zh_female_wanwanxiaohe_moon_bigtts",
+      "displayName": "湾湾小何",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_wanwanxiaohe_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_wanqudashu_moon_bigtts",
+      "displayName": "湾区大叔",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_wanqudashu_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_daimengchuanmei_moon_bigtts",
+      "displayName": "呆萌川妹",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_daimengchuanmei_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_guozhoudege_moon_bigtts",
+      "displayName": "广州德哥",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_guozhoudege_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_beijingxiaoye_moon_bigtts",
+      "displayName": "北京小爷",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_beijingxiaoye_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_haoyuxiaoge_moon_bigtts",
+      "displayName": "浩宇小哥",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_haoyuxiaoge_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_guangxiyuanzhou_moon_bigtts",
+      "displayName": "广西远舟",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_guangxiyuanzhou_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_meituojieer_moon_bigtts",
+      "displayName": "妹坨洁儿",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_meituojieer_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_yuzhouzixuan_moon_bigtts",
+      "displayName": "豫州子轩",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_yuzhouzixuan_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_gaolengyujie_moon_bigtts",
+      "displayName": "高冷御姐",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_gaolengyujie_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_aojiaobazong_moon_bigtts",
+      "displayName": "傲娇霸总",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_aojiaobazong_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_meilinvyou_moon_bigtts",
+      "displayName": "魅力女友",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_meilinvyou_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_shenyeboke_moon_bigtts",
+      "displayName": "深夜播客",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_shenyeboke_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_sajiaonvyou_moon_bigtts",
+      "displayName": "柔美女友",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_sajiaonvyou_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_yuanqinvyou_moon_bigtts",
+      "displayName": "撒娇学妹",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_yuanqinvyou_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "ICL_zh_female_bingruoshaonv_tob",
+      "displayName": "病弱少女",
+      "langs": ["zh"],
+      "gender": "zh",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_ICL_zh_female_bingruoshaonv_tob_zh.wav"
+      }
+    },
+    {
+      "name": "ICL_zh_female_huoponvhai_tob",
+      "displayName": "活泼女孩",
+      "langs": ["zh"],
+      "gender": "zh",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_ICL_zh_female_huoponvhai_tob_zh.wav"
+      }
+    },
+    {
+      "name": "ICL_zh_female_heainainai_tob",
+      "displayName": "和蔼奶奶",
+      "langs": ["zh"],
+      "gender": "zh",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_ICL_zh_female_heainainai_tob_zh.wav"
+      }
+    },
+    {
+      "name": "ICL_zh_female_linjuayi_tob",
+      "displayName": "邻居阿姨",
+      "langs": ["zh"],
+      "gender": "zh",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_ICL_zh_female_linjuayi_tob_zh.wav"
+      }
+    },
+    {
+      "name": "zh_female_wenrouxiaoya_moon_bigtts",
+      "displayName": "温柔小雅",
+      "langs": ["zh"],
+      "gender": "female",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_female_wenrouxiaoya_moon_bigtts_zh.wav"
+      }
+    },
+    {
+      "name": "zh_male_dongfanghaoran_moon_bigtts",
+      "displayName": "东方浩然",
+      "langs": ["zh"],
+      "gender": "male",
+      "sample": {
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_doubao_zh_male_dongfanghaoran_moon_bigtts_zh.wav"
+      }
+    }
+  ],
+  "minimax": [
+    {
+      "name": "male-qn-qingse",
+      "displayName": "青涩青年音色",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse_zh.mp3"
+      }
+    },
+    {
+      "name": "male-qn-jingying",
+      "displayName": "精英青年音色",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying_ko.mp3",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_minimax_male-qn-jingying_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying_zh.mp3"
+      }
+    },
+    {
+      "name": "male-qn-badao",
+      "displayName": "霸道青年音色",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao_zh.mp3"
+      }
+    },
+    {
+      "name": "male-qn-daxuesheng",
+      "displayName": "青年大学生音色",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng_zh.mp3"
+      }
+    },
+    {
+      "name": "female-shaonv",
+      "displayName": "少女音色",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv_zh.mp3"
+      }
+    },
+    {
+      "name": "female-yujie",
+      "displayName": "御姐音色",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie_zh.mp3"
+      }
+    },
+    {
+      "name": "female-chengshu",
+      "displayName": "成熟女性音色",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu_zh.mp3"
+      }
+    },
+    {
+      "name": "female-tianmei",
+      "displayName": "甜美女性音色",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei_zh.mp3"
+      }
+    },
+    {
+      "name": "presenter_male",
+      "displayName": "男性主持人",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_male_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_male_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_male_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_male_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_male_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_male_zh.mp3"
+      }
+    },
+    {
+      "name": "presenter_female",
+      "displayName": "女性主持人",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_female_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_female_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_female_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_female_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_female_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_presenter_female_zh.mp3"
+      }
+    },
+    {
+      "name": "audiobook_male_1",
+      "displayName": "男性有声书1",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_1_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_1_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_1_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_1_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_1_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_1_zh.mp3"
+      }
+    },
+    {
+      "name": "audiobook_male_2",
+      "displayName": "男性有声书2",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_2_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_2_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_2_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_2_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_2_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_male_2_zh.mp3"
+      }
+    },
+    {
+      "name": "audiobook_female_1",
+      "displayName": "女性有声书1",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_1_en.mp3",
+        "ja": "https://file.302.ai/gpt/imgs/tts_demo_minimax_audiobook_female_1_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_1_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_1_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_1_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_1_zh.mp3"
+      }
+    },
+    {
+      "name": "audiobook_female_2",
+      "displayName": "女性有声书2",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_2_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_2_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_2_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_2_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_audiobook_female_2_fr.mp3",
+        "zh": "https://file.302.ai/gpt/imgs/tts_demo_minimax_audiobook_female_2_zh.mp3"
+      }
+    },
+    {
+      "name": "male-qn-qingse-jingpin",
+      "displayName": "青涩青年音色-beta",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302.ai/gpt/imgs/tts_demo_minimax_male-qn-qingse-jingpin_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse-jingpin_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse-jingpin_ko.mp3",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_minimax_male-qn-qingse-jingpin_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse-jingpin_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-qingse-jingpin_zh.mp3"
+      }
+    },
+    {
+      "name": "male-qn-jingying-jingpin",
+      "displayName": "精英青年音色-beta",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying-jingpin_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying-jingpin_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying-jingpin_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying-jingpin_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying-jingpin_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-jingying-jingpin_zh.mp3"
+      }
+    },
+    {
+      "name": "male-qn-badao-jingpin",
+      "displayName": "霸道青年音色-beta",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao-jingpin_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao-jingpin_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao-jingpin_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao-jingpin_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao-jingpin_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-badao-jingpin_zh.mp3"
+      }
+    },
+    {
+      "name": "male-qn-daxuesheng-jingpin",
+      "displayName": "青年大学生音色-beta",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng-jingpin_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng-jingpin_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng-jingpin_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng-jingpin_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng-jingpin_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_male-qn-daxuesheng-jingpin_zh.mp3"
+      }
+    },
+    {
+      "name": "female-shaonv-jingpin",
+      "displayName": "少女音色-beta",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv-jingpin_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv-jingpin_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv-jingpin_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv-jingpin_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv-jingpin_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-shaonv-jingpin_zh.mp3"
+      }
+    },
+    {
+      "name": "female-yujie-jingpin",
+      "displayName": "御姐音色-beta",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie-jingpin_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie-jingpin_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie-jingpin_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie-jingpin_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie-jingpin_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-yujie-jingpin_zh.mp3"
+      }
+    },
+    {
+      "name": "female-chengshu-jingpin",
+      "displayName": "成熟女性音色-beta",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu-jingpin_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu-jingpin_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu-jingpin_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu-jingpin_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu-jingpin_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-chengshu-jingpin_zh.mp3"
+      }
+    },
+    {
+      "name": "female-tianmei-jingpin",
+      "displayName": "甜美女性音色-beta",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei-jingpin_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei-jingpin_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei-jingpin_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei-jingpin_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei-jingpin_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_female-tianmei-jingpin_zh.mp3"
+      }
+    },
+    {
+      "name": "clever_boy",
+      "displayName": "聪明男童",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302.ai/gpt/imgs/tts_demo_minimax_clever_boy_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_clever_boy_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_clever_boy_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_clever_boy_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_clever_boy_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_clever_boy_zh.mp3"
+      }
+    },
+    {
+      "name": "cute_boy",
+      "displayName": "可爱男童",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cute_boy_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cute_boy_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cute_boy_ko.mp3",
+        "de": "https://file.302.ai/gpt/imgs/tts_demo_minimax_cute_boy_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cute_boy_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cute_boy_zh.mp3"
+      }
+    },
+    {
+      "name": "lovely_girl",
+      "displayName": "萌萌女童",
+      "gender": "female",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_lovely_girl_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_lovely_girl_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_lovely_girl_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_lovely_girl_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_lovely_girl_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_lovely_girl_zh.mp3"
+      }
+    },
+    {
+      "name": "cartoon_pig",
+      "displayName": "卡通猪小琪",
+      "gender": "male",
+      "langs": ["multi"],
+      "sample": {
+        "en": "https://file.302.ai/gpt/imgs/tts_demo_minimax_cartoon_pig_en.mp3",
+        "ja": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cartoon_pig_ja.mp3",
+        "ko": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cartoon_pig_ko.mp3",
+        "de": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cartoon_pig_de.mp3",
+        "fr": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cartoon_pig_fr.mp3",
+        "zh": "https://file.302ai.cn/gpt/imgs/tts_demo_minimax_cartoon_pig_zh.mp3"
+      }
+    }
+  ]
+}

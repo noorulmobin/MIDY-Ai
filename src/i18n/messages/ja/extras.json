@@ -1,0 +1,24 @@
+{
+  "history": {
+    "delete": {
+      "error": "削除失敗",
+      "success": "削除成功"
+    },
+    "download": {
+      "error": "履歴異常、再試行してください",
+      "success": "ダウンロード成功"
+    },
+    "empty": "履歴はありません",
+    "title": "履歴",
+    "trigger": {
+      "label": "履歴を開く/閉じる"
+    }
+  },
+  "switch_language": "言語を切り替える",
+  "switch_theme": {
+    "dark": "ナイト",
+    "light": "デイ",
+    "system": "システムに従う",
+    "toggle_theme": "テーマを切り替える"
+  }
+}

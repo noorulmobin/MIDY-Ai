@@ -1,0 +1,24 @@
+{
+  "history": {
+    "delete": {
+      "error": "Deletion failed",
+      "success": "Deletion successful"
+    },
+    "download": {
+      "error": "History error, please try again",
+      "success": "Download successful"
+    },
+    "empty": "No history available",
+    "title": "History",
+    "trigger": {
+      "label": "Open/Close History"
+    }
+  },
+  "switch_language": "Switch Language",
+  "switch_theme": {
+    "dark": "Dark",
+    "light": "Light",
+    "system": "Follow System",
+    "toggle_theme": "Toggle Theme"
+  }
+}

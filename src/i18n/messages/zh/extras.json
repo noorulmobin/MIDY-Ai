@@ -1,0 +1,24 @@
+{
+  "history": {
+    "delete": {
+      "error": "删除失败",
+      "success": "删除成功"
+    },
+    "download": {
+      "error": "历史记录异常，请重试",
+      "success": "下载成功"
+    },
+    "empty": "暂无历史记录",
+    "title": "历史记录",
+    "trigger": {
+      "label": "打开/关闭历史记录"
+    }
+  },
+  "switch_language": "切换语言",
+  "switch_theme": {
+    "dark": "夜间",
+    "light": "白天",
+    "system": "跟随系统",
+    "toggle_theme": "切换主题"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "audio_tab": {
+    "generate": {
+      "azure": "Azure",
+      "clear_input_button_text": "清空输入内容",
+      "doubao": "豆包",
+      "download_button_text": "下载",
+      "female": "（女）",
+      "fish": "FishAudio",
+      "generate_button_text": "生成",
+      "generate_success": "生成成功",
+      "get_generate_audio_error": "获取生成的音频失败，请尝试重新生成",
+      "hint_button_text": "提示",
+      "hint_text_1": "为获得最佳效果：",
+      "hint_text_2": "- 文本输入要有创造力。",
+      "hint_text_3": "- 尽量选择符合角色预期性格的语气。",
+      "hint_text_4": "- 使用感叹号和其他标点符号来引导角色，如何做出你希望的反应！",
+      "hint_text_hover": "文本至音频生成指南 （单击显示指南）",
+      "history": {
+        "use": "使用"
+      },
+      "history_button_text": "历史记录",
+      "history_none": "暂无历史记录",
+      "male": "（男）",
+      "minimax": "Minimax",
+      "no_speaker_options": "请先选择平台",
+      "openai": "OpenAI",
+      "placeholder_language": "语言",
+      "placeholder_platform": "平台",
+      "placeholder_speaker": "选择声音",
+      "send_generate_error": "生成音频失败，请尝试重新生成",
+      "textarea_placeholder": "在此处输入您希望您的角色说的话...",
+      "title": "生成"
+    },
+    "next_step_button_text": "下一步",
+    "record": {
+      "download": "下载",
+      "start_record": "开始录制",
+      "title": "录音",
+      "uploading_text": "正在上传"
+    },
+    "upload": {
+      "delete_text": "删除",
+      "text_click": "点击",
+      "text_drag": "拖放或点击",
+      "text_or": "或",
+      "text_support": "支持以下几种格式",
+      "title": "上传",
+      "upload_error": "上传失败，请尝试重新上传"
+    },
+    "user_upload": {
+      "hint_text_1": "上传/录制音频文件，我们将生成与之匹配的视频。",
+      "hint_text_2": "为了取得最佳效果：",
+      "hint_text_3": "- 保持音频简短（<20秒）！",
+      "hint_text_4": "较长的音频会导致视频生成时间较长。",
+      "hint_text_5": "- 音频越清晰，视频效果越好。",
+      "hint_text_6": "为了获得最佳效果，请尽量减少背景噪音和耳语。",
+      "hint_text_7": "- 合理使用！在选择音频时，请遵守知识产权、隐私保护和版权法。",
+      "upload_success": "上传成功"
+    }
+  },
+  "download_error_no_filename": "下载失败，获取文件名为空",
+  "download_failed": "下载失败，请尝试重新下载",
+  "download_success": "下载成功",
+  "generation_tab": {
+    "back_button": "上一步",
+    "download_button": "下载",
+    "generate_audio_error": "音频上传失败，请检查音频是否正常并尝试重新生成",
+    "generate_error": "视频生成失败，请尝试重新生成",
+    "generate_image_error": "图片上传失败，请检查图片是否合法并尝试重新生成",
+    "generate_success": "视频生成成功",
+    "hedra_error": {
+      "-1": "Hedra未知错误",
+      "celebrity": "图像安全检查失败。以下内容未符合指导原则：名人。请确保您的内容符合指导原则。",
+      "underage": "图像安全检查失败。以下内容未符合指导原则：涉及未成年人。请确保您的内容符合指导原则。"
+    },
+    "hint_text_1": "正在生成，请稍后......",
+    "hint_text_2": "生成过程较长，请不要关闭此页面",
+    "hint_text_no_video": "暂未生成视频",
+    "history_button": "历史记录",
+    "make_new_button": " 制作新的视频",
+    "no_source_error": "生成出错啦，未获取到音频和人像链接",
+    "regenerate_button": "重新生成"
+  },
+  "header": {
+    "title": "AI 照片说话"
+  },
+  "photo_tab": {
+    "generate": {
+      "download_text": "下载",
+      "generate_error_text": "人像图片生成失败，请尝试再次生成",
+      "generate_success_text": "人像图片生成成功",
+      "generate_text": "生成",
+      "model_select_text": "选择模型",
+      "prompt_error_text": "处理输入内容失败，请尝试更换输入内容并在此生成",
+      "textarea_placeholder": "描述您的角色并单击“生成”以生成图片（例：Regal princess with a tiara.）",
+      "title": "生成",
+      "usage_text_1": "您的图片稍后会呈现在此"
+    },
+    "next_step_button_text": "合成视频",
+    "prev_step_button_text": "上一步",
+    "record": {
+      "capture_text": "拍照",
+      "title": "拍摄"
+    },
+    "upload": {
+      "delete_text": "删除",
+      "download_text": "下载",
+      "generate_hint_1": "图像生成指南",
+      "generate_hint_2": "直接点击“生成”按钮，会根据参考用例直接生成结果。输入您的描述后再次点击“生成”按钮，根据你的提示获取新的结果。",
+      "generate_hint_3": "为了获得最佳效果：",
+      "generate_hint_4": "- 用逗号分隔所有短语。",
+      "generate_hint_5": "- 先描述风格（彩色照片，黑白木炭画）。",
+      "generate_hint_6": "- 描述角色（动漫女性，赛博朋克战士，90年代情景剧角色）。",
+      "generate_hint_7": "- 描述摄像头位置（特写，肩部以上，正面朝向镜头）。",
+      "generate_hint_8": "- 描述背景（夜晚的森林，安静的城市）。",
+      "generate_hint_9": "- 描述光照效果（电影感，柔光，烈日）。",
+      "hint_text_1": "图片上传指南",
+      "hint_text_2": "为了获得最佳效果：",
+      "hint_text_3": "- 面向摄像头。",
+      "hint_text_4": "- 确保脸部清晰可见。",
+      "hint_text_5": "- 确保图片中只有你一个人。",
+      "hint_text_6": "- 动物或物体可能不会产生预期效果。",
+      "title": "上传",
+      "usage_text_1": "将图像拖放至此处，单击以上传",
+      "usage_text_2": "支持的图片格式：.jpeg/.png/.webp"
+    },
+    "avatar_maker": {
+      "title": "风格转换"
+    },
+    "preset_style": {
+      "title": "选择风格",
+      "image_styles": {
+        "clay": "粘土",
+        "clown": "小丑",
+        "comic_style": "漫画风",
+        "custom": "自定义",
+        "cyberpunk": "赛博朋克",
+        "elf": "精灵",
+        "impressionism": "印象主义",
+        "line_art_style": "线条艺术风",
+        "low_poly_style": "低聚风",
+        "robot": "机器人",
+        "vampire": "吸血鬼",
+        "watercolor": "水彩",
+        "zombie": "僵尸"
+      }
+    },
+    "tabs": {
+      "tab_preset": "预设",
+      "tab_custom": "自定义"
+    },
+    "custom_style": {
+      "custom_input_placeholder": "在此输入您的自定义风格",
+      "tab_custom_tips": "自定义风格描述",
+      "submit": "确认",
+      "optimizing": "正在优化",
+      "optimize_success": "优化成功",
+      "optimize_error": "优化失败"
+    },
+    "character_type": {
+      "children": "儿童",
+      "man": "男性",
+      "tips": "人物类型",
+      "woman": "女性"
+    },
+    "size": "尺寸",
+    "avatar_maker_generate": "开始生成",
+    "avatar_maker_tips": "缺少人像图片",
+    "avatar_maker_custom_content_tips": "自定义风格描述为空，请重新输入自定义描述",
+    "avatar_maker_generate_status": {
+      "error": "生成失败，请重新生成",
+      "loading": "生成中...",
+      "success": "生成完成"
+    },
+    "avatar_maker_download_error": "下载失败，请重新下载",
+    "avatar_maker_delete": {
+      "tips": "确定要删除此图片吗？",
+      "success": "删除成功",
+      "error": "删除失败",
+      "cancel": "取消",
+      "continue": "确定"
+    },
+    "avatar_maker_empty_text": "暂无历史记录"
+  },
+  "stepper": {
+    "audio_selection": "设置音频",
+    "photo_selection": "配置人像",
+    "video_generation": "合成视频"
+  },
+  "use_audio_record": {
+    "error_duration_calculation_failed": "录音文件有误，请重试",
+    "error_no_file": "暂无文件，请重新选择",
+    "error_start_recording": "启动录音失败，请重试",
+    "error_too_long": "录音时长超过30秒，请重新录制",
+    "error_too_short": "录音时长不足10秒，请重新录制",
+    "error_upload_failed": "上传录音文件失败",
+    "success_file_selected": "音频已选择",
+    "success_recording_ended": "录音成功"
+  }
+}

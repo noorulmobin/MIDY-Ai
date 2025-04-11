@@ -1,0 +1,202 @@
+{
+  "audio_tab": {
+    "generate": {
+      "azure": "Azure",
+      "clear_input_button_text": "Clear Input",
+      "doubao": "Doubao",
+      "download_button_text": "Download",
+      "female": "(Female)",
+      "fish": "FishAudio",
+      "generate_button_text": "Generate",
+      "generate_success": "Generation Successful",
+      "get_generate_audio_error": "Failed to get generated audio, please try regenerating",
+      "hint_button_text": "Hint",
+      "hint_text_1": "For best results:",
+      "hint_text_2": "- Text input should be creative.",
+      "hint_text_3": "- Try to choose a tone that fits the character's expected personality.",
+      "hint_text_4": "- Use exclamation marks and other punctuation to guide the character on how to respond!",
+      "hint_text_hover": "Text to Audio Generation Guide (Click to show guide)",
+      "history": {
+        "use": "Use"
+      },
+      "history_button_text": "History",
+      "history_none": "No history available",
+      "male": "(Male)",
+      "minimax": "Minimax",
+      "no_speaker_options": "Please select a platform first",
+      "openai": "OpenAI",
+      "placeholder_language": "Language",
+      "placeholder_platform": "Platform",
+      "placeholder_speaker": "Select Voice",
+      "send_generate_error": "Failed to generate audio, please try regenerating",
+      "textarea_placeholder": "Enter what you want your character to say here...",
+      "title": "Generate",
+      "upload_success": "Upload Successful"
+    },
+    "next_step_button_text": "Next Step",
+    "record": {
+      "download": "Download",
+      "start_record": "Start Recording",
+      "title": "Recording",
+      "uploading_text": "Uploading"
+    },
+    "upload": {
+      "delete_text": "Delete",
+      "text_click": "Click",
+      "text_drag": "Drag and drop or click",
+      "text_or": "or",
+      "text_support": "Supports the following formats",
+      "title": "Upload",
+      "upload_error": "Upload failed, please try re-uploading"
+    },
+    "user_upload": {
+      "hint_text_1": "Upload/record audio files, and we will generate a matching video.",
+      "hint_text_2": "For best results:",
+      "hint_text_3": "- Keep audio short (<20 seconds)!",
+      "hint_text_4": "Longer audio will result in longer video generation times.",
+      "hint_text_5": "- The clearer the audio, the better the video effect.",
+      "hint_text_6": "To achieve the best results, minimize background noise and whispering.",
+      "hint_text_7": "- Use responsibly! When selecting audio, please comply with intellectual property, privacy protection, and copyright laws.",
+      "upload_success": "Upload Successful"
+    }
+  },
+  "download_error_no_filename": "Download failed, filename is empty",
+  "download_failed": "Download failed, please try re-downloading",
+  "download_success": "Download Successful",
+  "generation_tab": {
+    "back_button": "Back",
+    "download_button": "Download",
+    "generate_audio_error": "Audio upload failed, please check if the audio is normal and try regenerating",
+    "generate_error": "Video generation failed, please try regenerating",
+    "generate_image_error": "Image upload failed, please check if the image is valid and try regenerating",
+    "generate_success": "Video generation successful",
+    "hedra_error": {
+      "-1": "Unknown Hedra error",
+      "celebrity": "Image safety check failed. The following content does not meet the guidelines: Celebrity. Please ensure your content complies with the guidelines.",
+      "underage": "Image safety check failed. The following content does not meet the guidelines: Involvement of minors. Please ensure your content complies with the guidelines."
+    },
+    "hint_text_1": "Generating, please wait......",
+    "hint_text_2": "The generation process is long, please do not close this page",
+    "hint_text_no_video": "No video generated yet",
+    "history_button": "History",
+    "make_new_button": "Make a new video",
+    "no_source_error": "Generation error, audio and portrait links not obtained",
+    "regenerate_button": "Regenerate"
+  },
+  "header": {
+    "title": "AI Talking Photo"
+  },
+  "photo_tab": {
+    "avatar_maker": {
+      "title": "style transfer"
+    },
+    "avatar_maker_custom_content_tips": "Custom style description is empty, please re-enter custom description",
+    "avatar_maker_delete": {
+      "cancel": "Cancel",
+      "continue": "Sure",
+      "error": "Delete failed",
+      "success": "Delete successfully",
+      "tips": "Are you sure you want to delete this image?"
+    },
+    "avatar_maker_download_error": "Download failed, please re-download",
+    "avatar_maker_empty_text": "No history available",
+    "avatar_maker_generate": "Start generating",
+    "avatar_maker_generate_status": {
+      "error": "Generation failed, please regenerate",
+      "loading": "Generating...",
+      "success": "Generation completed"
+    },
+    "avatar_maker_tips": "Missing portrait image",
+    "character_type": {
+      "children": "Children",
+      "man": "Man",
+      "tips": "Character Type",
+      "woman": "Woman"
+    },
+    "custom_style": {
+      "custom_input_placeholder": "Enter your custom style here",
+      "optimize_error": "Optimization failed",
+      "optimize_success": "Optimization successful",
+      "optimizing": "Optimizing",
+      "submit": "Confirm",
+      "tab_custom_tips": "Custom style description"
+    },
+    "generate": {
+      "download_text": "Download",
+      "generate_error_text": "Portrait image generation failed, please try generating again",
+      "generate_success_text": "Portrait image generation successful",
+      "generate_text": "Generate",
+      "model_select_text": "Select Model",
+      "prompt_error_text": "Failed to process input content, please try changing the input content and generate here",
+      "textarea_placeholder": "Describe your character and click 'Generate' to create an image (e.g., Regal princess with a tiara.)",
+      "title": "Generate",
+      "usage_text_1": "Your image will be displayed here later"
+    },
+    "next_step_button_text": "Composite Video",
+    "preset_style": {
+      "image_styles": {
+        "clay": "Clay",
+        "clown": "Clown",
+        "comic_style": "Comic Style",
+        "custom": "Custom",
+        "cyberpunk": "Cyberpunk",
+        "elf": "Elf",
+        "impressionism": "Impressionism",
+        "line_art_style": "Line Art Style",
+        "low_poly_style": "Low Poly Style",
+        "robot": "Robot",
+        "vampire": "Vampire",
+        "watercolor": "Watercolor",
+        "zombie": "Zombie"
+      },
+      "title": "Select Style"
+    },
+    "prev_step_button_text": "Back",
+    "record": {
+      "capture_text": "Take Photo",
+      "title": "Shooting"
+    },
+    "size": "Size",
+    "tabs": {
+      "tab_custom": "Customize",
+      "tab_preset": "Preset"
+    },
+    "upload": {
+      "delete_text": "Delete",
+      "download_text": "Download",
+      "generate_hint_1": "Image Generation Guide",
+      "generate_hint_2": "Click the 'Generate' button directly to generate results based on reference examples. After entering your description, click the 'Generate' button again to get new results based on your prompt.",
+      "generate_hint_3": "To achieve the best results:",
+      "generate_hint_4": "- Separate all phrases with commas.",
+      "generate_hint_5": "- First describe the style (color photo, black and white charcoal drawing).",
+      "generate_hint_6": "- Describe the character (anime female, cyberpunk warrior, 90s sitcom character).",
+      "generate_hint_7": "- Describe the camera position (close-up, above the shoulders, facing the camera).",
+      "generate_hint_8": "- Describe the background (forest at night, quiet city).",
+      "generate_hint_9": "- Describe the lighting effect (cinematic, soft light, bright sun).",
+      "hint_text_1": "Image Upload Guide",
+      "hint_text_2": "To achieve the best results:",
+      "hint_text_3": "- Face the camera.",
+      "hint_text_4": "- Ensure the face is clearly visible.",
+      "hint_text_5": "- Make sure there is only one person in the image.",
+      "hint_text_6": "- Animals or objects may not produce the expected effect.",
+      "title": "Upload",
+      "usage_text_1": "Drag and drop images here, click to upload",
+      "usage_text_2": "Supported image formats: .jpeg/.png/.webp"
+    }
+  },
+  "stepper": {
+    "audio_selection": "Set Audio",
+    "photo_selection": "Configure Portrait",
+    "video_generation": "Composite Video"
+  },
+  "use_audio_record": {
+    "error_duration_calculation_failed": "Recording file is incorrect, please try again",
+    "error_no_file": "No file available, please reselect",
+    "error_start_recording": "Failed to start recording, please try again",
+    "error_too_long": "Recording duration exceeds 30 seconds, please re-record",
+    "error_too_short": "Recording duration is less than 10 seconds, please re-record",
+    "error_upload_failed": "Failed to upload recording file",
+    "success_file_selected": "Audio has been selected",
+    "success_recording_ended": "Recording successful"
+  }
+}

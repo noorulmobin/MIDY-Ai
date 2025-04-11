@@ -1,0 +1,35 @@
+{
+  "error": {
+    "code_invalid": "コードの共有エラー。詳細については、<site>302.AI</site> にアクセスしてください。",
+    "network_error": "ネットワーク サービス エラー。ネットワークのステータスを確認するか、後でもう一度試してください。",
+    "not_found": "ページが存在しません",
+    "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+    "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+    "unknown_error": "不明なエラーが発生しました。カスタマー サービスにお問い合わせください。"
+  },
+  "footer": {
+    "copyright_content": "<リンクロゴ></リンクロゴ>による提供",
+    "copyright_leading": "コンテンツはAIによって生成されており、参照のみを目的としています"
+  },
+  "header": {
+    "github_hyperlink": {
+      "label": "GitHubリポジトリリンク"
+    },
+    "language_switcher": {
+      "switch_language": "言語を切り替える"
+    },
+    "theme_switcher": {
+      "dark": "夜に",
+      "light": "昼間",
+      "system": "システムに従ってください",
+      "toggle_theme": "テーマを切り替える"
+    },
+    "tool_info": {
+      "description": "現在のツールに関する情報",
+      "title": "について",
+      "trigger": {
+        "label": "ツール情報ポップアップを開く/閉じる"
+      }
+    }
+  }
+}
