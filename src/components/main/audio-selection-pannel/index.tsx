@@ -27,15 +27,17 @@ const AudioSelectionPannel = (props: {
 
   return (
     <div className="relative mx-3 flex flex-1 flex-col">
-      {/* <div className="absolute left-0 top-0 z-10">
-        <TabsContent
-          value={ativeTab}
-          onChange={(newValue) => {
-            setActiveTab(newValue);
-            setNowAudioTab(newValue);
-          }}
-        />
-      </div> */}
+      {
+        <div className="absolute left-0 top-0 z-10">
+          <TabsContent
+            value={ativeTab}
+            onChange={(newValue) => {
+              setActiveTab(newValue);
+              setNowAudioTab(newValue);
+            }}
+          />
+        </div>
+      }
       <div className="relative z-0 flex w-auto flex-row justify-end">
         <div className="flex h-9 flex-col justify-center">
           <HintButton htmlStr={hintStr} />

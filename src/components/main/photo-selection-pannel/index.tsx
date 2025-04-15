@@ -19,41 +19,42 @@ const PhotoSelectionPannel = (props: {
 
   return (
     <>
-      {/* <div className="relative mx-3 flex flex-1 flex-col">
-        <div className="absolute left-0 top-0 z-10">
-          <TabsContent
-            value={ativeTab}
-            onChange={(newValue) => {
-              setActiveTab(newValue);
-              setNowImageTab(newValue);
-            }}
-          />
-        </div>
-        <div className="relative z-0 flex flex-col">
-          <div
-            className={`flex flex-1 flex-col ${ativeTab !== "upload" && "hidden"}`}
-          >
-            <PhotoUploadTab
-              onClickPrev={() => onClickPrev()}
-              onClickNext={(newImageUrl) => onClickNext(newImageUrl)}
+      {
+        <div className="relative mx-3 flex flex-1 flex-col">
+          <div className="absolute left-0 top-0 z-10">
+            <TabsContent
+              value={ativeTab}
+              onChange={(newValue) => {
+                setActiveTab(newValue);
+                setNowImageTab(newValue);
+              }}
             />
           </div>
-          <div
-            className={`flex flex-1 flex-col ${ativeTab !== "generate" && "hidden"}`}
-          >
-            <PhotoGenerateTab
-              onClickPrev={() => onClickPrev()}
-              onClickNext={(newImageUrl) => onClickNext(newImageUrl)}
-            />
-          </div>
-          <div
-            className={`flex flex-1 flex-col ${ativeTab !== "record" && "hidden"}`}
-          >
-            <PhotoCaptureTab />
+          <div className="relative z-0 flex flex-col">
+            <div
+              className={`flex flex-1 flex-col ${ativeTab !== "upload" && "hidden"}`}
+            >
+              <PhotoUploadTab
+                onClickPrev={() => onClickPrev()}
+                onClickNext={(newImageUrl) => onClickNext(newImageUrl)}
+              />
+            </div>
+            <div
+              className={`flex flex-1 flex-col ${ativeTab !== "generate" && "hidden"}`}
+            >
+              <PhotoGenerateTab
+                onClickPrev={() => onClickPrev()}
+                onClickNext={(newImageUrl) => onClickNext(newImageUrl)}
+              />
+            </div>
+            <div
+              className={`flex flex-1 flex-col ${ativeTab !== "record" && "hidden"}`}
+            >
+              <PhotoCaptureTab />
+            </div>
           </div>
         </div>
-       }
-      </div> */}
+      }
     </>
   );
 };

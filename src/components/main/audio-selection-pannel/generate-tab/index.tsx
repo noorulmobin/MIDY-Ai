@@ -145,7 +145,6 @@ const GenerateTab = (props: { onClickNext: (newAudioUrl: string) => void }) => {
     }
     const audioUrl = await ajaxGetAudioUrl(taskId);
     if (!audioUrl) {
-     
       return null;
     }
     return audioUrl;
@@ -192,63 +191,74 @@ const GenerateTab = (props: { onClickNext: (newAudioUrl: string) => void }) => {
     <>
       <div className="relative z-0 flex flex-1 flex-col">
         <div className="z-10 box-border flex flex-1 flex-col pt-4 md:max-h-96">
-        <div className="relative flex flex-1 flex-col">
-  <div className="md:text-md absolute bottom-2 right-3 text-sm text-gray-800">
-    {textareaLimitText}
-  </div>
-  <Textarea
-    maxLength={maxInputLength}
-    value={inputValue}
-    className="h-20 resize-none text-sm" // 👈 Adjust height and text size
-    placeholder={t("home:audio_tab.generate.textarea_placeholder")}
-    onChange={(e) => setInputValue(e.target.value)}
-  />
-</div>
-
-          {/* <div className="mt-2 flex w-full flex-row flex-wrap gap-2">
-            <AudioSelector
-              value={speakerValue}
-              onChange={(newValue) => setSpeakerValue(newValue)}
+          <div className="relative flex flex-1 flex-col">
+            <div className="md:text-md absolute bottom-2 right-3 text-sm text-gray-800">
+              {textareaLimitText}
+            </div>
+            <Textarea
+              maxLength={maxInputLength}
+              value={inputValue}
+              className="h-20 resize-none text-sm" // 👈 Adjust height and text size
+              placeholder={t("home:audio_tab.generate.textarea_placeholder")}
+              onChange={(e) => setInputValue(e.target.value)}
             />
-          </div> */}
-          {/* <div className="mt-2 flex w-full flex-row">
-            <MP3Player audioSrc={audioUrl || ""} />
-          </div> */}
+          </div>
+
+          {
+            <div className="mt-2 flex w-full flex-row flex-wrap gap-2">
+              <AudioSelector
+                value={speakerValue}
+                onChange={(newValue) => setSpeakerValue(newValue)}
+              />
+            </div>
+          }
+          {
+            <div className="mt-2 flex w-full flex-row">
+              <MP3Player audioSrc={audioUrl || ""} />
+            </div>
+          }
           <div className="flex-row"></div>
         </div>
-        {/* <div className="mt-2 flex flex-row flex-wrap justify-between gap-2">
-          <HistoryButton
-            className="flex-1 gap-2 md:flex-none"
-            onClickHistoryItem={(newItem) => onClickHistoryItem(newItem)}
-          />
-          <Button
-            className="flex-1 gap-2 md:flex-none"
-            disabled={disabledGenerateButton}
-            variant="secondary"
-            onClick={() => setInputValue("")}
-          >
-            <MdCleaningServices className="h-4 w-4" />
-            {t("home:audio_tab.generate.clear_input_button_text")}
-          </Button>
-          <Button
-            className="flex-1 md:flex-none"
-            disabled={disabledGenerateButton}
-            variant={disabledGenerateButton ? "secondary" : "default"}
-            onClick={() => onClickGenerate()}
-          >
-            {t("home:audio_tab.generate.generate_button_text")}
-          </Button>
-          <DownloadButton className="flex-1 md:flex-none" fileUrl={audioUrl} />
-        </div> */}
+        {
+          <div className="mt-2 flex flex-row flex-wrap justify-between gap-2">
+            <HistoryButton
+              className="flex-1 gap-2 md:flex-none"
+              onClickHistoryItem={(newItem) => onClickHistoryItem(newItem)}
+            />
+            <Button
+              className="flex-1 gap-2 md:flex-none"
+              disabled={disabledGenerateButton}
+              variant="secondary"
+              onClick={() => setInputValue("")}
+            >
+              <MdCleaningServices className="h-4 w-4" />
+              {t("home:audio_tab.generate.clear_input_button_text")}
+            </Button>
+            <Button
+              className="flex-1 md:flex-none"
+              disabled={disabledGenerateButton}
+              variant={disabledGenerateButton ? "secondary" : "default"}
+              onClick={() => onClickGenerate()}
+            >
+              {t("home:audio_tab.generate.generate_button_text")}
+            </Button>
+            <DownloadButton
+              className="flex-1 md:flex-none"
+              fileUrl={audioUrl}
+            />
+          </div>
+        }
         <div className="mt-2 flex flex-row justify-center">
-          {/* <Button
-            className="gap-2"
-            disabled={!audioUrl}
-            onClick={() => audioUrl && onClickNext(audioUrl)}
-          >
-            <ArrowRight className="h-4 w-4" />
-            {t("home:audio_tab.next_step_button_text")}
-          </Button> */}
+          {
+            <Button
+              className="gap-2"
+              disabled={!audioUrl}
+              onClick={() => audioUrl && onClickNext(audioUrl)}
+            >
+              <ArrowRight className="h-4 w-4" />
+              {t("home:audio_tab.next_step_button_text")}
+            </Button>
+          }
         </div>
       </div>
       <SKChaseLoading loading={loading} />

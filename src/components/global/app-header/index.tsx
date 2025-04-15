@@ -21,10 +21,11 @@ const Header = forwardRef<HTMLDivElement, HeaderProps>(({ className }, ref) => {
       ref={ref}
       className={cn("flex items-center justify-end gap-2 p-2", className)}
     >
-      {/* <GithubHyperlink /> */}
-      {/* {!isAuthPath && <AppHistory />} */}
-      {/* {!isAuthPath && !hideBrand && <ToolInfo />} */}
-      {/* <LanguageSwitcher /> */}
+      <GithubHyperlink />
+      {!isAuthPath && <AppHistory />}
+      {!isAuthPath && !hideBrand && <ToolInfo />}
+      <LanguageSwitcher />
+
       <ThemeSwitcher />
     </div>
   );

@@ -6,6 +6,7 @@ import { forwardRef } from "react";
 import { Trans } from "react-i18next";
 import AppLogo from "../app-logo";
 import { useAppStore } from "@/stores";
+import { usePathname } from "next/navigation"; // ✅ Get current route
 
 type FooterProps = {
   className?: string;
@@ -13,10 +14,13 @@ type FooterProps = {
 
 const Footer = forwardRef<HTMLDivElement, FooterProps>(({ className }, ref) => {
   const { t } = useClientTranslation();
-
   const { hideBrand } = useAppStore();
+  const pathname = usePathname(); // ✅ Check the current route
 
-  return hideBrand ? null : (
+  // ✅ Hide footer only on the landing page
+  if (pathname === "/" || hideBrand) return null;
+
+  return (
     <footer
       className={cn("flex flex-col items-center justify-center p-2", className)}
       style={{ color: "rgb(102, 102, 102)", fontSize: "12px" }}
@@ -25,7 +29,7 @@ const Footer = forwardRef<HTMLDivElement, FooterProps>(({ className }, ref) => {
       <div className="break-all text-center">
         {t("global:footer.copyright_leading")}
       </div>
-      {/* <div className="flex items-center justify-center gap-1">
+      <div className="flex items-center justify-center gap-1">
         <Trans
           t={t}
           i18nKey={"global:footer.copyright_content"}
@@ -40,7 +44,7 @@ const Footer = forwardRef<HTMLDivElement, FooterProps>(({ className }, ref) => {
             ),
           }}
         />
-      </div> */}
+      </div>
     </footer>
   );
 });

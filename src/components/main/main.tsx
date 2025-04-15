@@ -1,9 +1,12 @@
+// components/main/main.tsx
 "use client";
 
+import { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { useStepper, steps, Step } from "@/hooks/use-stepper";
 import { Button } from "../ui/button";
 import Header from "./header";
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { cn } from "@/lib/utils";
 import { Label } from "../ui/label";
 import { useClientTranslation } from "@/hooks/global/use-client-translation";
@@ -17,17 +20,15 @@ import useAsyncStoreLanguage from "@/hooks/use-async-store-language";
 
 const Main = () => {
   useAsyncStoreLanguage();
+  const searchParams = useSearchParams();
+  const initialText = searchParams.get("input") || "";
 
   const { t } = useClientTranslation();
-
-  const [loading, setLoading] = useState(false);
-
-  const [generateVideo, setGenerateVideo] = useState(false);
-
-  const infoStoreState = useLipsyncInfoStore();
-
+  const [loading, setLoading] = useState(true);
+  const [generateVideo, setGenerateVideo] = useState(true);
   const [resetFlag, setResetFlag] = useState(0);
 
+  const infoStoreState = useLipsyncInfoStore();
   const {
     nowMainTab,
     setNowMainTab,
@@ -41,6 +42,15 @@ const Main = () => {
   } = infoStoreState;
 
   const stepper = useStepper(nowMainTab);
+
+  // ⚠️ Automatically jump to photo-selection if there's landing input
+  useEffect(() => {
+    if (initialText) {
+      setAudioUrl(initialText); // this is passed to AudioSelectionPannel's existing input
+      stepper.goTo("photo-selection");
+      setNowMainTab("photo-selection");
+    }
+  }, [initialText, setAudioUrl, stepper, setNowMainTab]);
 
   const onAudioPannelClickNext = (newAudioUrl: string) => {
     if (loading) return;
@@ -78,16 +88,16 @@ const Main = () => {
       <Header />
       <mainContext.Provider
         value={{
-          loading: loading,
-          setLoading: (newFlag) => setLoading(newFlag),
-          generateVideo: generateVideo,
-          setGenerateVideo: (newFlag) => setGenerateVideo(newFlag),
-          reset: () => onClickReset(),
+          loading,
+          setLoading,
+          generateVideo,
+          setGenerateVideo,
+          reset: onClickReset,
         }}
       >
         <div
           className="container mx-auto flex h-full min-h-[500px] w-full max-w-[1024px] flex-1 flex-col items-center px-2 py-6"
-          key={resetFlag + ""}
+          key={resetFlag}
         >
           <nav
             aria-label="Checkout Steps"
@@ -111,8 +121,7 @@ const Main = () => {
                       aria-setsize={steps.length}
                       aria-selected={stepper.current.id === step.id}
                       className={cn(
-                        "flex size-4 items-center justify-center rounded-full p-0 md:size-8",
-                        true ? "pointer-events-auto" : "pointer-events-none"
+                        "flex size-4 items-center justify-center rounded-full p-0 md:size-8"
                       )}
                       onClick={() => onClickStepper(step.id)}
                     >
@@ -120,7 +129,7 @@ const Main = () => {
                     </Button>
                     <Label
                       className={cn(
-                        "pointer-events-none cursor-pointer text-sm font-medium",
+                        "pointer-events-none text-sm font-medium",
                         index <= stepper.current.index
                           ? "text-primary"
                           : "text-foreground"
@@ -143,7 +152,7 @@ const Main = () => {
                 </Fragment>
               ))}
             </ol>
-          </nav>
+          </nav> */}
           <div className="flex w-full flex-1 flex-col">
             <div
               className={`flex flex-1 flex-col ${stepper.current.id !== "audio-selection" && "hidden"}`}
@@ -160,9 +169,7 @@ const Main = () => {
             >
               <PhotoSelectionPannel
                 onClickPrev={() => !loading && stepper.goTo("audio-selection")}
-                onClickNext={(newImageUrl) =>
-                  onPhotoPannelClickNext(newImageUrl)
-                }
+                onClickNext={onPhotoPannelClickNext}
               />
             </div>
 
@@ -182,4 +189,5 @@ const Main = () => {
     </div>
   );
 };
+
 export default Main;
