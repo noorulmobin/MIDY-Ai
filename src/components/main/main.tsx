@@ -1,12 +1,8 @@
-// components/main/main.tsx
-"use client";
-
-import { useEffect, useState } from "react";
+import { useEffect, useState, Fragment } from "react";
 import { useSearchParams } from "next/navigation";
 import { useStepper, steps, Step } from "@/hooks/use-stepper";
 import { Button } from "../ui/button";
 import Header from "./header";
-import { Fragment } from "react";
 import { cn } from "@/lib/utils";
 import { Label } from "../ui/label";
 import { useClientTranslation } from "@/hooks/global/use-client-translation";
@@ -43,10 +39,10 @@ const Main = () => {
 
   const stepper = useStepper(nowMainTab);
 
-  // ⚠️ Automatically jump to photo-selection if there's landing input
+  // Automatically jump to photo-selection if there's landing input
   useEffect(() => {
     if (initialText) {
-      setAudioUrl(initialText); // this is passed to AudioSelectionPannel's existing input
+      setAudioUrl(initialText); // You might want to keep this if needed for any internal processing
       stepper.goTo("photo-selection");
       setNowMainTab("photo-selection");
     }
@@ -157,11 +153,7 @@ const Main = () => {
             <div
               className={`flex flex-1 flex-col ${stepper.current.id !== "audio-selection" && "hidden"}`}
             >
-              <AudioSelectionPannel
-                onClickNext={(newAudioUrl) =>
-                  !loading && onAudioPannelClickNext(newAudioUrl)
-                }
-              />
+              <AudioSelectionPannel onClickNext={onAudioPannelClickNext} />
             </div>
 
             <div
@@ -182,6 +174,16 @@ const Main = () => {
                 videoRatio={videoRatio}
                 onClickBack={() => !loading && stepper.goTo("photo-selection")}
               />
+            </div>
+          </div>
+
+          {/* Integrated Input Display: Show the initial text directly here */}
+          <div className="mt-4 w-full max-w-md">
+            <label htmlFor="inputText" className="block text-lg font-medium">
+              Your Input Text:
+            </label>
+            <div className="mt-2 h-24 w-full resize-none rounded border border-gray-300 bg-gray-100 px-4 py-2">
+              {initialText}
             </div>
           </div>
         </div>
