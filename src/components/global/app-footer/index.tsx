@@ -3,8 +3,8 @@
 import { useClientTranslation } from "@/hooks/global/use-client-translation";
 import { cn } from "@/lib/utils";
 import { forwardRef } from "react";
-import { Trans } from "react-i18next";
-import AppLogo from "../app-logo";
+// import { Trans } from "react-i18next";
+// import AppLogo from "../app-logo";
 import { useAppStore } from "@/stores";
 import { usePathname } from "next/navigation"; // ✅ Get current route
 
