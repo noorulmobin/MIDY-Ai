@@ -30,6 +30,8 @@ import AvatarEditor from "react-avatar-editor";
 import useImageUpload from "@/hooks/use-image-upload";
 import { emitter } from "@/utils/mitt";
 import useAjaxPost from "@/hooks/use-ajax-post";
+import { useSearchParams } from "next/navigation";
+
 
 const getPrompt = (content: string) => `
 Your task is to optimize and enhance the user's image description to ensure it is suitable for generating a high-quality image using Midjourney or other Diffusion models.
@@ -52,6 +54,9 @@ const PhotoGenerateTab = (props: {
 }) => {
   const { onClickNext, onClickPrev } = props;
   const { t } = useClientTranslation();
+  const searchParams = useSearchParams();
+  const initialText = searchParams?.get("input") || "";
+
   const hintStr = `
 <p>${t("home:photo_tab.upload.hint_text_1")}</p>
 <p>${t("home:photo_tab.upload.hint_text_2")}</p>
@@ -246,7 +251,7 @@ const PhotoGenerateTab = (props: {
         <div className="text-md relative z-0 mx-auto my-0 mt-3 flex h-24 w-24 flex-col justify-center rounded-full border border-dashed border-gray-300 text-center text-gray-400 md:h-48 md:w-48">
           <AiFillPicture className="mx-auto my-0 h-2/4 w-2/4 text-lg" />
         </div>
-        <div className="mb-3 mt-4 flex flex-col text-center text-sm text-gray-400">
+        <div className="mb-3 mt-4 flex flex-col text-center text-sm text-gray-400 ">
           <p>{t("home:photo_tab.generate.usage_text_1")}</p>
         </div>
       </ImgContent>
@@ -263,9 +268,16 @@ const PhotoGenerateTab = (props: {
           <DownloadButton fileUrl={imageUrl} />
         </a>
       </div>
-      <div className="mb-2 mt-2 flex min-h-40 flex-row justify-end gap-3">
+      <div className="mb-2 mt-2 flex min-h-40 flex-row justify-end gap-3 border gray-red-600">
+
         <div className="relative flex flex-1 flex-col">
-          <div className="md:text-md absolute bottom-2 right-3 text-sm text-gray-400">
+
+          <div className="md:text-md  bottom-2 right-3 text-sm">
+          <div className="mt-4 w-full max-w-md">
+            <div className="h-[130px] w-[30rem] ml-[0px] rounded  px-4 py-2">
+              {initialText}
+            </div>
+          </div>
             {textareaLimitText}
           </div>
           <Textarea
@@ -273,7 +285,8 @@ const PhotoGenerateTab = (props: {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             maxLength={maxInputLength}
-            placeholder={t("home:photo_tab.generate.textarea_placeholder")}
+            // placeholder={t("home:photo_tab.generate.textarea_placeholder")}
+
           />
         </div>
       </div>

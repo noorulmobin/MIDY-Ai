@@ -29,7 +29,7 @@ const Footer = forwardRef<HTMLDivElement, FooterProps>(({ className }, ref) => {
       <div className="break-all text-center">
         {t("global:footer.copyright_leading")}
       </div>
-      <div className="flex items-center justify-center gap-1">
+      {/* <div className="flex items-center justify-center gap-1">
         <Trans
           t={t}
           i18nKey={"global:footer.copyright_content"}
@@ -44,7 +44,7 @@ const Footer = forwardRef<HTMLDivElement, FooterProps>(({ className }, ref) => {
             ),
           }}
         />
-      </div>
+      </div> */}
     </footer>
   );
 });

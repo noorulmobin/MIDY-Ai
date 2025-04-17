@@ -148,7 +148,7 @@ const Main = () => {
                 </Fragment>
               ))}
             </ol>
-          </nav> */}
+          </nav>
           <div className="flex w-full flex-1 flex-col">
             <div
               className={`flex flex-1 flex-col ${stepper.current.id !== "audio-selection" && "hidden"}`}
@@ -178,14 +178,14 @@ const Main = () => {
           </div>
 
           {/* Integrated Input Display: Show the initial text directly here */}
-          <div className="mt-4 w-full max-w-md">
+          {/* <div className="mt-4 w-full max-w-md">
             <label htmlFor="inputText" className="block text-lg font-medium">
               Your Input Text:
             </label>
             <div className="mt-2 h-24 w-full resize-none rounded border border-gray-300 bg-gray-100 px-4 py-2">
               {initialText}
             </div>
-          </div>
+          </div> */}
         </div>
       </mainContext.Provider>
     </div>
